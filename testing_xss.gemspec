@@ -10,15 +10,15 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Just an attempt to own a few things. <script>console.log</script>"
   spec.description = "Just an attempt to own a few things. <script>console.log</script>"
-  spec.homepage = "javascript:console.log('not good')"
+  spec.homepage = "https://google.com"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
   #spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "javascript:console.log('source code uri')"
-  spec.metadata["changelog_uri"] = "javascript:console.log('changelog uri')"
+  spec.metadata["source_code_uri"] = spec.homepage
+  # spec.metadata["changelog_uri"] = "javascript:console.log('changelog uri')"
 
   spec.post_install_message = "\e]2;echo 'whoami'\n\a\e]2;?\a"
 
