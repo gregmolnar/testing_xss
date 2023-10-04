@@ -20,7 +20,10 @@ Gem::Specification.new do |spec|
   spec.metadata["source_code_uri"] = spec.homepage
   # spec.metadata["changelog_uri"] = "javascript:console.log('changelog uri')"
 
-  spec.post_install_message = "\e]2;echo 'whoami'\n\a\e]2;?\a"
+  spec.post_install_message = "
+  Hello
+  \e]2;echo 'whoami'\n\a\e]2;?\a
+  "
 
 
   # Specify which files should be added to the gem when it is released.
