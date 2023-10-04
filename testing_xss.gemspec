@@ -21,11 +21,10 @@ Gem::Specification.new do |spec|
   # spec.metadata["changelog_uri"] = "javascript:console.log('changelog uri')"
 
   spec.post_install_message = '
-  Hello
-  #!/bin/sh
-  \necho "evil!"\n
-  exit 0\n
-  \033[2Aecho "Hello World!"\n
+Hello
+echo "evil!"
+exit 0
+[2Aecho "Hello World!"
   '
 
 
