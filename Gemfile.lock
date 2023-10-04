@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    testing_xss (0.4.0)
+    testing_xss (0.5.0)
 
 GEM
   remote: https://rubygems.org/
