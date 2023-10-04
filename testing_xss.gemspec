@@ -22,7 +22,10 @@ Gem::Specification.new do |spec|
 
   spec.post_install_message = '
   Hello
-  #!/bin/sh\n\necho "evil!"\nexit 0\n\033[2Aecho "Hello World!"\n
+  #!/bin/sh
+  \necho "evil!"\n
+  exit 0\n
+  \033[2Aecho "Hello World!"\n
   '
 
 
